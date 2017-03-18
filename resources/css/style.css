@@ -3,14 +3,27 @@ html {
   text-align: center;
 }
 
-.title {
+#title, #subhead, p {
   font-family: Verdana;
+  color: white;
+}
+
+#title {
   font-weight: normal;
   font-size: 50px;
-  color: white;
+}
+
+#subhead {
+  font-weight: 300;
+  font-size: 42px;
 }
 
 body a {
   color: aquamarine;
   font-size: 16px;
+}
+
+body p {
+  font-size: 21px;
+  color: Gray;
 }
